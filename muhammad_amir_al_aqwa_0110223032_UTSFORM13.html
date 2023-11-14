@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Sivitas Akademika</title>
+    <!-- input css -->
+    <style>
+        .isian {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 300px;
+    }
+
+td{
+    width: auto;
+}
+
+#submit{
+    margin-left: auto;
+    padding-left: 22%;
+}
+    </style>
+    
+</head>
+<body>
+    <div>
+        <form action="#">
+            <table>
+                <tr>
+                    <td>
+                        Cari Sivitas Mahasiswa :
+                    </td>
+                    <td>
+                        <input type="search" id="search" name="search" placeholder="Search">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nama Lengkap :
+                    </td>
+                    <td>
+                        <input type="text" id="nama" name="nama" class="isian" placeholder="Nama Mahasiswa / Dosen">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Asal Prodi :
+                    </td>
+                    <td>
+                        <input type="text" id="prodi" name="prodi" class="isian" placeholder="Asal Prodi">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Status
+                    </td>
+                    <td>
+                        <input type="text" id="status" name="status" class="isian" placeholder="Mahasiswa/Dosen">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Jenis Kendaraan :
+                    </td>
+                    <td>
+                    <input type="radio" id="Motor" name="motor">
+                        <label for="Motor">Motor</label>
+
+                    <input type="radio" id="mobil" name="mobil">
+                        <label for="mobil">Mobil</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        NoPol :
+                    </td>
+                    <td>
+                        <input type="text" id="nopol" name="nopol">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Merk :
+                    </td>
+                    <td>
+                        <input type="text" id="merk" name="merk">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Upload STNK
+                    </td>
+                    <td>
+                        <input type="text" id="stnk" name="stnk">
+                        <button type="button" id="btn">Browse</button>
+                    </td>
+                </tr>
+                <tr>
+                <td></td>
+                <td id="submit">
+                    <button type="submit" id="daftar">Daftar</button>
+                </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
